@@ -8,7 +8,7 @@
         <!-- Admin Dashboard -->
         <section style="background: linear-gradient(135deg, var(--gray-100) 0%, white 100%); min-height: 100vh; padding: 40px 24px;">
             <div class="container" style="max-width: 1200px; margin: 0 auto;">
-                
+
                 <!-- Admin Welcome Banner -->
                 <div style="background: linear-gradient(135deg, var(--navy-900), var(--navy-800)); border-radius: 20px; padding: 40px; margin-bottom: 32px; color: white;">
                     <div style="display: flex; align-items: center; justify-content: space-between;">
@@ -17,7 +17,7 @@
                                 👋 Admin Dashboard
                             </h1>
                             <p style="font-size: 1rem; opacity: 0.9;">
-                                Kelola semua konten website TechFix dari sini
+                                Kelola semua konten website InfraHome Tech dari sini
                             </p>
                         </div>
                         <a href="{{ route('admin.dashboard') }}" style="background: var(--blue-600); color: white; padding: 14px 28px; border-radius: 10px; text-decoration: none; font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px;"
@@ -205,7 +205,7 @@
                         Selamat Datang, {{ auth()->user()->name ?? 'User' }}! 👋
                     </h1>
                     <p style="font-size: 1rem; opacity: 0.9; line-height: 1.6;">
-                        Terima kasih telah bergabung dengan TechFix. Kami siap membantu kebutuhan IT Anda.
+                        Terima kasih telah bergabung dengan InfraHome Tech. Kami siap membantu kebutuhan IT Anda.
                     </p>
                 </div>
 

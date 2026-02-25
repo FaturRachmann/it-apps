@@ -17,8 +17,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             ProfileSeeder::class,
-            ServiceSeeder::class,
-            ArticleSeeder::class,
+            ServiceDataSeeder::class,
+            ArticleDataSeeder::class,
         ]);
 
         // Create a test user if needed for admin functionality

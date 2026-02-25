@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ $title ?? 'TechFix – IT Home Service' }}</title>
+    <title>{{ $title ?? 'InfraHome Tech – IT Home Service' }}</title>
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="@yield('description', 'Professional IT Support Services for businesses of all sizes. 24/7 support, cloud solutions, and network security.')">
@@ -478,8 +478,8 @@
 
         // WhatsApp function
         function openWA() {
-            const phone = '6281234567890'; // Ganti dengan nomor WhatsApp Anda
-            const message = 'Halo TechFix, saya butuh bantuan IT support.';
+            const phone = '6289604067015'; // Ganti dengan nomor WhatsApp Anda
+            const message = 'Halo InfraHome Tech, saya butuh bantuan IT support.';
             window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
         }
 

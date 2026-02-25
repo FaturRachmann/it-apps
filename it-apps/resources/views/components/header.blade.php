@@ -41,8 +41,8 @@
     }
 
     function openWA() {
-        const phone = '6281234567890';
-        const message = 'Hello TechFix, I need IT support assistance.';
+        const phone = '6289604067015';
+        const message = 'Hello InfraHome Tech, I need IT support assistance.';
         window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
     }
 

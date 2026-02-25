@@ -17,7 +17,7 @@
                         </div>
                         <div>
                             <h4>Phone / WhatsApp</h4>
-                            <p>+62 812-3456-7890</p>
+                            <p>+62 896-0406-7015</p>
                         </div>
                     </div>
 
@@ -30,7 +30,7 @@
                         </div>
                         <div>
                             <h4>Email</h4>
-                            <p>support@techfix.com</p>
+                            <p>service@faturrachman.my.id</p>
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@
                         </div>
                         <div>
                             <h4>Office Location</h4>
-                            <p>Jl. Teknologi No. 123, Jakarta</p>
+                            <p>Jl. Kampung Kelapa No. 138b, Kab Bogor</p>
                         </div>
                     </div>
 

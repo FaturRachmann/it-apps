@@ -61,6 +61,7 @@ Route::prefix('admin')->name('admin.')->middleware(['auth'])->group(function () 
     // Messages
     Route::get('/messages', [AdminController::class, 'messages'])->name('messages.index');
     Route::post('/messages/{message}/read', [AdminController::class, 'markAsRead'])->name('messages.read');
+    Route::delete('/messages/{message}', [AdminController::class, 'destroyMessage'])->name('messages.destroy');
 });
 
 // Auth Routes

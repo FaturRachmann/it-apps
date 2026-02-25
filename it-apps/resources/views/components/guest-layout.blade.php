@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'TechFix') }} - Login</title>
+    <title>{{ config('app.name', 'InfraHome Tech') }} - Login</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -98,7 +98,7 @@
         </div>
         
         <p style="text-align: center; color: rgba(255,255,255,0.6); font-size: 0.85rem; margin-top: 24px;">
-            © {{ date('Y') }} TechFix. All rights reserved.
+            © {{ date('Y') }} InfraHome Tech. All rights reserved.
         </p>
     </div>
 </body>

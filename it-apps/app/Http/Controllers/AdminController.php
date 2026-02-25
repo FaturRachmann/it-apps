@@ -84,4 +84,19 @@ class AdminController extends Controller
 
         return redirect()->back()->with('success', 'Message marked as read.');
     }
+
+    /**
+     * Delete a contact message.
+     *
+     * @param Request $request
+     * @param int $id
+     * @return RedirectResponse
+     */
+    public function destroyMessage(int $id): RedirectResponse
+    {
+        $message = ContactMessage::findOrFail($id);
+        $message->delete();
+
+        return redirect()->back()->with('success', 'Message deleted successfully.');
+    }
 }
